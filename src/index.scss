@@ -1,0 +1,8 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    @apply flex flex-col items-center justify-center bg-blue-100 dark:bg-[#282c34] h-screen;
+}
